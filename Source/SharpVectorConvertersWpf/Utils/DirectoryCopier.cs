@@ -232,8 +232,8 @@ namespace SharpVectors.Converters.Utils
                 DirectoryInfo targetInfo = null;
                 if (_includeSecurity)
                 {
-                    targetInfo = target.CreateSubdirectory(sourceInfo.Name,
-                        sourceInfo.GetAccessControl());
+                    targetInfo = target.CreateSubdirectory(sourceInfo.Name);
+                    targetInfo.SetAccessControl(sourceInfo.GetAccessControl());
                 }
                 else
                 {
@@ -277,7 +277,7 @@ namespace SharpVectors.Converters.Utils
                 // if required to set the security or access control
                 if (_includeSecurity)
                 {
-                    File.SetAccessControl(filePath, fi.GetAccessControl());
+                    new FileInfo(filePath).SetAccessControl(fi.GetAccessControl());
                 }
             }
         }

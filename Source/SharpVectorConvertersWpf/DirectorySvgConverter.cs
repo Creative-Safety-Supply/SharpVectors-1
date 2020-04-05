@@ -325,8 +325,8 @@ namespace SharpVectors.Converters
                 DirectoryInfo targetInfo = null;
                 if (_includeSecurity)
                 {
-                    targetInfo = target.CreateSubdirectory(sourceInfo.Name,
-                        sourceInfo.GetAccessControl());
+                    targetInfo = target.CreateSubdirectory(sourceInfo.Name);
+                    targetInfo.SetAccessControl(sourceInfo.GetAccessControl());
                 }
                 else
                 {
@@ -378,7 +378,7 @@ namespace SharpVectors.Converters
                         // if required to set the security or access control
                         if (_includeSecurity)
                         {
-                            File.SetAccessControl(xamlFilePath, File.GetAccessControl(svgFileName));
+                            new FileInfo(xamlFilePath).SetAccessControl(new FileInfo(svgFileName).GetAccessControl());
                         }
 
                         _convertedCount++;

@@ -14,6 +14,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpVectors.Rendering.Wpf"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpVectors.Runtime.Wpf", "SharpVectorRuntimeWpf\SharpVectors.Runtime.Wpf.csproj", "{2CD52982-A1C2-4A14-9D69-D64719357216}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpVectors.Converters.Wpf", "SharpVectorConvertersWpf\SharpVectors.Converters.Wpf.csproj", "{EC755443-933B-4B66-899B-E78C9174CD36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,12 @@ Global
 		{2CD52982-A1C2-4A14-9D69-D64719357216}.Documentation|Any CPU.Build.0 = Debug|Any CPU
 		{2CD52982-A1C2-4A14-9D69-D64719357216}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CD52982-A1C2-4A14-9D69-D64719357216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC755443-933B-4B66-899B-E78C9174CD36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC755443-933B-4B66-899B-E78C9174CD36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC755443-933B-4B66-899B-E78C9174CD36}.Documentation|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC755443-933B-4B66-899B-E78C9174CD36}.Documentation|Any CPU.Build.0 = Debug|Any CPU
+		{EC755443-933B-4B66-899B-E78C9174CD36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC755443-933B-4B66-899B-E78C9174CD36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
