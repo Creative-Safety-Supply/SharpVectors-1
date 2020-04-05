@@ -78,37 +78,23 @@
             * Added marker support.
     </releaseNotes>
     <tags>svg .net wpf svg2xaml svg2wpf xaml</tags>
-    <dependencies>
-      <group targetFramework=".NETFramework4.0" />
-    </dependencies>  
   </metadata>
   <files>
-    <file src="..\Output\SharpVectors.Converters.Wpf.dll" target="lib\net40"/>
-    <file src="..\Output\SharpVectors.Core.dll" target="lib\net40"/>
-    <file src="..\Output\SharpVectors.Css.dll" target="lib\net40"/>
-    <file src="..\Output\SharpVectors.Dom.dll" target="lib\net40"/>
-    <file src="..\Output\SharpVectors.Model.dll" target="lib\net40"/>
-    <file src="..\Output\SharpVectors.Rendering.Gdi.dll" target="lib\net40"/>
-    <file src="..\Output\SharpVectors.Rendering.Wpf.dll" target="lib\net40"/>
-    <file src="..\Output\SharpVectors.Runtime.Wpf.dll" target="lib\net40"/>
+    <file src="..\Output\SharpVectors.Core.dll" target="lib\netcoreapp3.1"/>
+    <file src="..\Output\SharpVectors.Css.dll" target="lib\netcoreapp3.1"/>
+    <file src="..\Output\SharpVectors.Dom.dll" target="lib\netcoreapp3.1"/>
+    <file src="..\Output\SharpVectors.Model.dll" target="lib\netcoreapp3.1"/>
+    <file src="..\Output\SharpVectors.Rendering.Gdi.dll" target="lib\netcoreapp3.1"/>
+    <file src="..\Output\SharpVectors.Rendering.Wpf.dll" target="lib\netcoreapp3.1"/>
+    <file src="..\Output\SharpVectors.Runtime.Wpf.dll" target="lib\netcoreapp3.1"/>
 
-    <file src="..\Output\SharpVectors.Converters.Wpf.xml" target="lib\net40"/>
-    <file src="..\Output\SharpVectors.Core.xml" target="lib\net40"/>
-    <file src="..\Output\SharpVectors.Css.xml" target="lib\net40"/>
-    <file src="..\Output\SharpVectors.Dom.xml" target="lib\net40"/>
-    <file src="..\Output\SharpVectors.Model.xml" target="lib\net40"/>
-    <file src="..\Output\SharpVectors.Rendering.Gdi.xml" target="lib\net40"/>
-    <file src="..\Output\SharpVectors.Rendering.Wpf.xml" target="lib\net40"/>
-    <file src="..\Output\SharpVectors.Runtime.Wpf.xml" target="lib\net40"/>
-
-    <file src="..\Output\SharpVectors.Converters.Wpf.pdb" target="lib\net40"/>
-    <file src="..\Output\SharpVectors.Core.pdb" target="lib\net40"/>
-    <file src="..\Output\SharpVectors.Css.pdb" target="lib\net40"/>
-    <file src="..\Output\SharpVectors.Dom.pdb" target="lib\net40"/>
-    <file src="..\Output\SharpVectors.Model.pdb" target="lib\net40"/>
-    <file src="..\Output\SharpVectors.Rendering.Gdi.pdb" target="lib\net40"/>
-    <file src="..\Output\SharpVectors.Rendering.Wpf.pdb" target="lib\net40"/>
-    <file src="..\Output\SharpVectors.Runtime.Wpf.pdb" target="lib\net40"/>
+    <file src="..\Output\SharpVectors.Core.xml" target="lib\netcoreapp3.1"/>
+    <file src="..\Output\SharpVectors.Css.xml" target="lib\netcoreapp3.1"/>
+    <file src="..\Output\SharpVectors.Dom.xml" target="lib\netcoreapp3.1"/>
+    <file src="..\Output\SharpVectors.Model.xml" target="lib\netcoreapp3.1"/>
+    <file src="..\Output\SharpVectors.Rendering.Gdi.xml" target="lib\netcoreapp3.1"/>
+    <file src="..\Output\SharpVectors.Rendering.Wpf.xml" target="lib\netcoreapp3.1"/>
+    <file src="..\Output\SharpVectors.Runtime.Wpf.xml" target="lib\netcoreapp3.1"/>
     
     <file src="..\Images\SharpVectors64.png" target="images"/>
   </files>
